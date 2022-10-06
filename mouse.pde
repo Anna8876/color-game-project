@@ -23,7 +23,7 @@ void mouseReleased() {
 void random2() { 
   if (boolean(floor(random(2)))) {
     rc = rw = floor(random(5));
-  } else { // If not, make sure neither random are equal
+  } else { 
     while (true) {
       rc = floor(random(5));
       rw = floor(random(5));
